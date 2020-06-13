@@ -1,0 +1,176 @@
+
+/*** played around with some open source design ideas ***/
+
+/***open source design element for particles***/
+
+.background {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/22/14/42/globe-1849404_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: absolute;
+        
+    display :block;
+        
+    top: 0;
+        
+    left: 0;
+        
+    z-index: 0;
+    
+    }
+
+/***Default Setting***/
+*{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+
+header {
+    z-index: 2;
+    position: relative;
+}
+
+h2 {
+    z-index: 2;
+    position: relative;
+}
+
+/***design for navbar***/
+
+nav {
+    border-radius: 1%;
+    border: solid white 1px;
+    position: relative;
+    background-color: #454545 ;
+    text-align: left;
+    height: 50px;
+    z-index: 2;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+/***design for overall-wrapper***/
+
+#wrapper {
+    margin: 0 auto;
+    background-color: #1D2329 ;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 100vw;
+      
+}
+
+/*** design for movie wrapper***/
+
+.movie_wrapper {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 55%;
+    background-color: #181818;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    justify-items: space-between;
+    margin: 2% 0;
+    height: 100%;
+}
+
+.movie_wrapper img {
+margin: 2%;
+border-radius: 2%;
+-ms-flex-preferred-size: 30%;
+flex-basis: 30%;
+}
+
+.movie_name {
+color: #ffffff;
+font-weight: bold;
+font-size: 1.7vw;
+margin: 3% 2% 2% 2%;
+}
+
+
+/***design for like-button and counter display***/
+
+.button_div {
+display: flex;
+justify-content: space-around;
+justify-content: end;
+padding:0 10px 0 10px;
+height: 10vh;
+width: 10vh;
+}
+
+.btn {
+    color:white;
+}
+
+input {
+background-color: black;
+width:100px;
+}
+
+
+.show >h1{
+background-color: gold;
+font-size: large;
+color: black;
+text-align: center;
+justify-content: center;
+border-radius: 100%;
+height: 8vh;
+width: 10vh;
+min-width: -webkit-fit-content;
+min-width: -moz-fit-content;
+min-width: fit-content;
+min-height: -webkit-fit-content;
+min-height: -moz-fit-content;
+min-height: fit-content;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-flow: row;
+        flex-flow: row;
+justify-items: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+
+
+  
+
+

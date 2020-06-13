@@ -1,0 +1,12 @@
+movies = `[
+    {"title": "Artemis Fowl", "description": "Artemis Fowl, a young criminal prodigy, hunts down a secret society of fairies to find his missing father.", "poster": "./img/artemis.jpg"},
+    {"title": "The Big Ugly", "description": "Anglo-American relations go bad when London mob bosses invest in a West Virginia oil deal.", "poster": "./img/big_ugly.jpg"},
+    {"title": "The Dark Knight Rises", "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman.", "poster": "./img/dark_knight.jpg"},
+    {"title": "Joker", "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society.", "poster": "./img/joker.jpg"},
+    {"title": "Overlord", "description": "A small group of American soldiers find horror behind enemy lines on the eve of D-Day.", "poster": "./img/overlord.jpg"},
+    {"title": "The Walk", "description": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream.", "poster": "./img/walk.jpg"}
+    ]`;
+
+
+
+

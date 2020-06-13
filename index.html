@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="design\movie_design.css">
+    <link rel="stylesheet" href="design\movie_swiper.css"><!--CSS for open source swiper design-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet"><!--FONTS-->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script><!--jQuery DB-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script><!--JS source for particles design-->
+
+    <script src="js\movie_data.json"></script><!--JSON-->
+
+    
+
+    <title>CodeReview05 - Movie Factory</title>
+</head>
+
+
+<!--HEADER-SECTION-->
+<header>
+    <h1>Movie Factory</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#" title ="Home">Home</a></li>
+        </ul>
+    </nav><!--NavBar-->
+
+</header><!--HEADER-->
+
+
+<!--MAIN CONTENT generated via JSON/JS-->
+
+        <body>
+
+            <h2>Movies</h2>
+
+        <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+                    
+                </div>    
+
+        </div>
+
+
+
+<!--FOOTER SECTION-->
+<footer>
+    <h1>Movie Factory</h1>
+    <h3>John Oxales  - CodeFactory 2020</h3>
+
+</footer><!--FOOTER-->
+
+<!--For particles design-->
+<canvas class="background"></canvas>
+
+
+<!--SCRIPTS-->
+
+<script src="js\myscript.js"></script>
+
+<script src="js\swiper.js"></script>
+
+
+<!--Open Source Design for swiper effect-->
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+
+</body>
+
+
+</html>

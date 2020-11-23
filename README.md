@@ -1,7 +1,7 @@
 # CFLMS-Oxales-CodeReview-05
 
-Fifth website project
-
+Fifth Website Project
+# Movie Factory
 
 Project description:
 
@@ -20,8 +20,6 @@ For this CodeReview, the following criteria will be graded:
 - Add a button to every movie that calls a function that increments the movie’s “likes” property on every button click.
 
 - Display movie’s “likes” property (number), that is also updated on the screen after clicking on the button “Like”
-
- 
 
 Bonus Points:
 - Add a Sort button that will sort the resulting list of movies according to their current likes property status 
